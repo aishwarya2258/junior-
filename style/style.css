@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #6d708d;
+    background-color: #f6f6fe;
+    background-image: url(../images/bg-top.svg), url(../images/bg-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0rem right 0rem, bottom -4.6rem left 0rem;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .annual-Price .flex-container div .monthly-price {
+    display: none !important;
+  }
+  
+  .annual-Price .flex-container div .annual-price {
+    display: flex !important;
+  }
+  
+  .annual-Price .flex-container div .pro-monthly-price {
+    display: none !important;
+  }
+  
+  .annual-Price .flex-container div .pro-annual-price {
+    display: flex !important;
+  }
+  
+  header {
+    padding: 50px 20px 0 20px;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .flex div {
+    color: #b3b5c6;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-weight: 700;
+  }
+  
+  section {
+    padding: 0 20px;
+    margin-top: 47px;
+  }
+  
+  .container {
+    max-width: 1052px;
+    margin: 0 auto;
+  }
+  
+  .header-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .flex-container div {
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .flex-container div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-size: 15px;
+    margin-top: 1.5rem !important;
+    margin-bottom: 2rem !important;
+  }
+  
+  .flex-container div ul li {
+    padding: 17px;
+    border-top: 0.5px solid rgba(214, 214, 214, 0.8);
+    text-align: center;
+  }
+  
+  .flex-container div .annual-price {
+    display: none !important;
+  }
+  
+  .flex-container div .pro-annual-price {
+    display: none !important;
+  }
+  
+  .flex-container div .price {
+    font-size: 72px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    letter-spacing: 0;
+  }
+  
+  .flex-container div .price .dollar-sign {
+    font-size: 39px;
+    margin-right: 8px;
+  }
+  
+  .flex-container .basic-box, .flex-container .master-box {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .flex-container .basic-box, .flex-container .master-box, .flex-container .pro-box {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #494c5f;
+  }
+  
+  .flex-container .basic-box ul, .flex-container .master-box ul, .flex-container .pro-box ul {
+    color: #6d708d;
+  }
+  
+  .flex-container .basic-box ul li, .flex-container .master-box ul li, .flex-container .pro-box ul li {
+    border-bottom: 0.5px solid rgba(214, 214, 214, 0.8);
+  }
+  
+  .flex-container .basic-box button, .flex-container .master-box button, .flex-container .pro-box button {
+    background: linear-gradient(to right, #a3a8f0, #696fdd) no-repeat;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 0px;
+    cursor: pointer;
+  }
+  
+  .flex-container .basic-box button:hover, .flex-container .master-box button:hover, .flex-container .pro-box button:hover {
+    background: transparent;
+    border: 1px solid #6d708d;
+    color: #6d708d;
+  }
+  
+  .flex-container .pro-box {
+    background: linear-gradient(to right, #a3a8f0, #696fdd);
+    color: #fff !important;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  
+  .flex-container .pro-box ul {
+    color: #fff !important;
+  }
+  
+  .flex-container .pro-box ul li {
+    padding: 17px;
+    border-top: 0.5px solid rgba(214, 214, 214, 0.541);
+    text-align: center;
+  }
+  
+  .flex-container .pro-box button {
+    background: #f6f6fe;
+    border: 1px solid #f6f6fe;
+    color: #6d708d;
+  }
+  
+  .flex-container .pro-box button:hover {
+    background: transparent;
+    border: 1px solid #f6f6fe;
+    color: #f6f6fe;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 32px;
+    margin: 18px 23px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #a3a8f0, #696fdd);
+    transition: 0s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background: linear-gradient(to right, #a3a8f0, #696fdd);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  input + .slider:hover {
+    background: #a3a8f0;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    body {
+      background-image: url(../images/bg-top.svg);
+      background-repeat: no-repeat;
+      background-position: top -2.2rem right -12rem;
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: #3e52a3;
+  }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+  <script src="js/toggle.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Skill Safari | Pricing component with toggle</title>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-flex-container">
+      <div>
+        <h1>Our Pricing</h1> 
+      </div>
+      <div class="flex">
+        <div><p>Annually</p></div>
+        <div><label class="switch">
+          <input type="checkbox" onclick="togglePrice()" checked>
+          <span class="slider round"></span>
+        </label></div>
+        <div><p>Monthly</p></div> 
+      </div>
+    </div>
+  </div>
+</header>
+  
+  
+<section id="section">
+  <div class="container">
+    <div class="flex-container">
+      <div class="basic-box">
+        <h2>Basic</h2> 
+        <div class="price monthly-price"><span class="dollar-sign">&dollar;</span>19.99</div>
+        <div class="price annual-price"><span class="dollar-sign">&dollar;</span>199.99</div> 
+        <ul>
+        <li>500 GB Storage</li>
+        <li>2 Users Allowed</li>
+        <li>Send up to 3 GB</li>
+      </ul>
+        <button>Learn More</button> 
+      </div>
+      <div class="pro-box">
+        <h2 class="pro-heading">Professional</h2> 
+        <div class="price pro-monthly-price"><span class="dollar-sign">&dollar;</span>24.99</div>
+        <div class="price pro-annual-price"><span class="dollar-sign">&dollar;</span>249.99</div> 
+        <ul>
+        <li class="pro-content">1 TB Storage</li>
+        <li class="pro-content">5 Users Allowed</li>
+        <li class="pro-content">Send up to 10 GB</li>
+      </ul>
+        <button>Learn More</button>
+      </div>
+      <div class="master-box">
+        <h2>Master</h2>
+        <div class="price monthly-price"><span class="dollar-sign">&dollar;</span>39.99</div>
+        <div class="price annual-price"><span class="dollar-sign">&dollar;</span>399.99</div>
+        <ul>
+        <li>2 TB Storage</li>
+        <li>10 Users Allowed</li>
+        <li>Send up to 20 GB</li>
+      </ul>
+        <button>Learn More</button>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+</body>
+</html>
